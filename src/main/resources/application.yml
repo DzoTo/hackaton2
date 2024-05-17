@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://monorail.proxy.rlwy.net:13366/railway
+    url: jdbc:postgresql://monorail.proxy.rlwy.net:20358/railway
     username: postgres
-    password: MreWuwVRbcyMzrereoYdkpLyjSBGibkO
+    password: dXLBBaHlIhtqylXuXLqDLlWeRbTLcltd
     name: spring-blog
   jpa:
     hibernate:
