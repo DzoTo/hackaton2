@@ -64,6 +64,7 @@ public class SecurityConfiguration {
     public CorsConfigurationSource corsConfigurationSource() {
         String[] allowedOrigins = {
                 "http://localhost:5173",
+                "https://hackaton2-production.up.railway.app/",
                 "https://secret-santa-jusan.vercel.app"
         };
         CorsConfiguration configuration = new CorsConfiguration();
